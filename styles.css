@@ -1,0 +1,107 @@
+body {
+  font-family: 'Courier New', monospace;
+  background-color: #f5e3e3;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #8a4b08; /* Coklat tua */
+    margin-bottom: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.filter {
+  margin-bottom: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 2px solid #6b4423;
+  background-color: #f7d4aa;
+}
+
+th, td {
+  border: 1px solid #6b4423;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #8a624a;
+  color: #fff;
+}
+
+tfoot td {
+  text-align: right;
+  font-weight: bold;
+  background-color: #8a624a;
+  color: #fff;
+}
+
+.filter label {
+  font-weight: bold;
+  color: #8a624a;
+}
+
+.filter select, .filter input[type="date"] {
+  padding: 6px;
+  border: 1px solid #6b4423;
+  border-radius: 4px;
+}
+
+.filter select {
+  background-color: #f7d4aa;
+}
+
+#totalHutang {
+  color: #d9534f;
+}
+
+body {
+  font-family: Courier New, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.copyright {
+  text-align: center;
+  padding: 20px;
+  animation: blink 5s infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #152232;
+    border-top: 1px solid #ccc;
+}
+
+/* ... Kode CSS lainnya ... */
+#playButton {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#playButton:hover {
+    background-color: #2980b9;
+}
