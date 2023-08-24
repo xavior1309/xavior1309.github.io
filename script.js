@@ -37,8 +37,9 @@ document.addEventListener("DOMContentLoaded", function() {
         { tanggal: "2023-08-22", jenis: "PULSA", nominal: 22 },
     { tanggal: "2023-08-22", jenis: "TOKEN HANAPI", nominal: 53 },
         { tanggal: "2023-08-22", jenis: "SHOPPE", nominal: 103 },
-{ tanggal: "2023-08-23", jenis: "PLN AGUS", nominal: 103 },
 { tanggal: "2023-08-24", jenis: "DANA", nominal: 205 },
+{ tanggal: "2023-08-23", jenis: "PLN AGUS", nominal: 103 },
+{ tanggal: "", jenis: "", nominal:  },
 
     // Tambahkan data lainnya di sini
   ];
